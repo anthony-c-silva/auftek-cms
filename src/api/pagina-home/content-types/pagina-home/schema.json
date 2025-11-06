@@ -1,0 +1,56 @@
+{
+  "kind": "singleType",
+  "collectionName": "pagina_homes",
+  "info": {
+    "singularName": "pagina-home",
+    "pluralName": "pagina-homes",
+    "displayName": "Pagina Home"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero_tag": {
+      "type": "string"
+    },
+    "hero_titulo": {
+      "type": "text"
+    },
+    "hero_subtitulo": {
+      "type": "string"
+    },
+    "hero_imagem1": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "hero_imagem2": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "about_titulo": {
+      "type": "string"
+    },
+    "about_descricao1": {
+      "type": "text"
+    },
+    "about_descricao2": {
+      "type": "text"
+    },
+    "about_video_url": {
+      "type": "string"
+    }
+  }
+}
